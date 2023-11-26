@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace backend.Models
+namespace Honey.backend.Models
 {
     public partial class Payment
     {

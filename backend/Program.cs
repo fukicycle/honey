@@ -1,4 +1,4 @@
-using backend.Models;
+using Honey.backend.Models;
 using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
