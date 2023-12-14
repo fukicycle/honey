@@ -1,0 +1,48 @@
+@switch (Type)
+{
+    case 1:
+        if (IsSelected)
+        {
+            <button @onclick=@OnClick>
+                <img src="svg/list_selected.svg" />
+            </button>
+        }
+        else
+        {
+            <button @onclick=@OnClick>
+                <img src="svg/list_unselected.svg" />
+            </button>
+        }
+        break;
+    case 2:
+        if (IsSelected)
+        {
+            <button @onclick=@OnClick>
+                <img src="svg/home_selected.svg" />
+            </button>
+        }
+        else
+        {
+            <button @onclick=@OnClick>
+                <img src="svg/home_selected.svg" />
+            </button>
+        }
+        break;
+    case 3:
+        if (IsSelected)
+        {
+            <button @onclick=@OnClick>
+                <img src="svg/home_selected.svg" />
+            </button>
+        }
+        else
+        {
+            <button @onclick=@OnClick>
+                <img src="svg/home_selected.svg" />
+            </button>
+        }
+        break;
+    default:
+        <div>error</div>
+        break;
+}
