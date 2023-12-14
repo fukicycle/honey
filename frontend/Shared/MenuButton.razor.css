@@ -7,9 +7,9 @@ button {
 .alt {
     text-align: center;
     font-size: 12px;
-    color: var(--black);
+    color: var(--primary-color-200);
 }
 
 .selected {
-    color: var(--primary-color-200);
+    color: var(--black);
 }
