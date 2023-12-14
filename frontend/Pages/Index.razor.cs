@@ -16,7 +16,7 @@ namespace frontend.Pages
             bool hasUserId = await LocalStorageService.ContainKeyAsync("USER_ID");
             if (!hasUserId)
             {
-                NavigationManager.NavigateTo("login");
+                // NavigationManager.NavigateTo("login");
             }
         }
 
