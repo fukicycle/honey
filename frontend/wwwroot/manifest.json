@@ -3,8 +3,8 @@
   "short_name": "frontend",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#03173d",
+  "background_color": "#FDEFD3",
+  "theme_color": "#F5BA41",
   "prefer_related_applications": false,
   "icons": [
     {
