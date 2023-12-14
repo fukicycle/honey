@@ -1,0 +1,9 @@
+.bottom-nav-area {
+    height: 80px;
+    width: 100%;
+    background-color: var(--primary-color-400);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: calc(.5rem + env(safe-area-inset-bottom));
+}
