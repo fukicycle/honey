@@ -15,9 +15,11 @@
 
 html,
 body {
+    font-size: 16px;
     font-family: 'Kosugi Maru', sans-serif;
     height: 100%;
     color: var(--black);
+    background-color: var(--white);
 }
 
 h1:focus {
