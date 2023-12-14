@@ -17,26 +17,29 @@
 }
 
 .logo {
-    width: 90%;
+    width: 80%;
     object-fit: contain;
     aspect-ratio: 1;
 }
 
 .brand-title {
     font-size: 48px;
-    color: var(--white);
+    color: var(--black);
 }
 
 .field {
+    color: var(--black);
     padding: 30px;
 }
 
 .field>input {
+    background-color: transparent;
     padding: 10px;
     outline: none;
     border: none;
-    color: var(--white);
-    border-bottom: 1px solid var(--white);
+    color: var(--black);
+    text-align: center;
+    border-bottom: 1px solid var(--black);
 }
 
 .login-btn {
@@ -45,9 +48,9 @@
     border: none;
     border-radius: 30px;
     padding: 15px;
-    color: var(--white);
+    color: var(--black);
 }
 
-.login-btn:focus .login-btn:hover {
-    background-color: var(--primary-color-200);
+.login-btn:hover{
+    background-color: var(--primary-color-300);
 }

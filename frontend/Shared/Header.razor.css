@@ -13,9 +13,9 @@
     margin: 5px 10px;
 }
 
-.logo-title {
+.brand-title {
     font-size: 36px;
-    color: var(--white);    
+    color: var(--black);    
 }
 
 .user-area {
