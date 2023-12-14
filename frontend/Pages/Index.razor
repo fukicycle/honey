@@ -5,7 +5,27 @@
     <Header />
     <main>
         <article class="h-100">
-
+            @switch (_selectedIndex)
+            {
+                case 0:
+                    <Animate class="h-100" Animation="Animations.Fade" Duration="TimeSpan.FromSeconds(0.5)">
+                        <Home />
+                    </Animate>
+                    break;
+                case 1:
+                    <Animate class="h-100" Animation="Animations.Fade" Duration="TimeSpan.FromSeconds(0.5)">
+                        <List />
+                    </Animate>
+                    break;
+                case 2:
+                    <Animate class="h-100" Animation="Animations.Fade" Duration="TimeSpan.FromSeconds(0.5)">
+                        <Summary />
+                    </Animate>
+                    break;
+                default:
+                    <div>Error</div>
+                    break;
+            }
         </article>
     </main>
     <BottomNavMenu MenuSelectionChanged="MenuButtonSelectionChanged" />
