@@ -9,9 +9,13 @@
     --black: #352403;
 }
 
+.logo-title {
+    font-family: 'Pacifico', cursive;
+}
+
 html,
 body {
-    font-family: 'Alegreya SC', serif;
+    font-family: 'Kosugi Maru', sans-serif;
     height: 100%;
     color: var(--black);
 }
