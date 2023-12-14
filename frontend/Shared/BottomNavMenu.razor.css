@@ -5,5 +5,5 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-bottom: calc(.5rem + env(safe-area-inset-bottom));
+    padding-bottom: calc(env(safe-area-inset-bottom) + .5rem);
 }
