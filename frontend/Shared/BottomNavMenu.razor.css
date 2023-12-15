@@ -1,10 +1,9 @@
 .bottom-nav-area {
-    height: 80px;
     width: 100%;
     background-color: var(--primary-color-400);
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-top: 5px;
-    padding-bottom: env(safe-area-inset-bottom);
+    padding-top: 10px;
+    padding-bottom: calc(env(safe-area-inset-bottom) + 10px);
 }
