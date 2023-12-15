@@ -1,9 +1,10 @@
 .bottom-nav-area {
-    height: 100px;
+    height: 80px;
     width: 100%;
     background-color: var(--primary-color-400);
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding-top: 5px;
     padding-bottom: env(safe-area-inset-bottom);
 }
