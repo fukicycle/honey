@@ -48,6 +48,22 @@
             </button>
         }
         break;
+    case 4:
+        if (IsSelected)
+        {
+            <button @onclick=@OnClick>
+                <img src="svg/setting_selected.svg" />
+                <div class="alt selected">設定</div>
+            </button>
+        }
+        else
+        {
+            <button @onclick=@OnClick>
+                <img src="svg/setting_unselected.svg" />
+                <div class="alt">設定</div>
+            </button>
+        }
+        break;
     default:
         <div>error</div>
         break;
