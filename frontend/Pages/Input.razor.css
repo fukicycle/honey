@@ -99,4 +99,6 @@
     padding: 10px 0;
     background-color: transparent;
     text-align: center;
+    color: var(--black);
+    text-align-last: center;
 }
