@@ -9,6 +9,20 @@
     --black: #352403;
 }
 
+.btn {
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: var(--primary-color-400);
+    color: var(--black);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
 .brand-title {
     font-family: 'Pacifico', cursive;
 }

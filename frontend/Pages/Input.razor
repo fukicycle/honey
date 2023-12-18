@@ -1,2 +1,47 @@
 <PageTitle>Honey - 入力</PageTitle>
-<h1>入力</h1>
+<div class="input-area">
+    <div class="tab-wrap">
+        <input id="tab1" type="radio" name="tab" class="tab-switch" checked="checked" />
+        <label class="tab-label" for="tab1">支払い</label>
+        <div class="tab-content">
+            <div class="field">
+                <div class="input-title">金額</div>
+                <input class="input-content" />
+            </div>
+            <div class="field">
+                <div class="input-title">分類</div>
+                <select class="input-content">
+                    <option value="-1" selected disabled>選択してください</option>
+                </select>
+            </div>
+            <div class="field">
+                <div class="input-title">カテゴリ</div>
+                <select class="input-content">
+                    <option value="-1" selected disabled>選択してください</option>
+                </select>
+            </div>
+            <div class="field">
+                <div class="input-title">購入店舗</div>
+                <select class="input-content">
+                    <option value="-1" selected disabled>選択してください</option>
+                </select>
+            </div>
+            <button class="btn">登録</button>
+        </div>
+        <input id="tab2" type="radio" name="tab" class="tab-switch" />
+        <label class="tab-label" for="tab2">収入</label>
+        <div class="tab-content">
+            <div class="field">
+                <div class="input-title">金額</div>
+                <input class="input-content" />
+            </div>
+            <div class="field">
+                <div class="input-title">収入タイプ</div>
+                <select class="input-content">
+                    <option value="-1" selected disabled>選択してください</option>
+                </select>
+            </div>
+            <button class="btn">登録</button>
+        </div>
+    </div>
+</div>
