@@ -41,6 +41,7 @@
     color: var(--black);
     text-align: center;
     border-bottom: 1px solid var(--black);
+    border-radius: 0;
 }
 
 .login-btn {
