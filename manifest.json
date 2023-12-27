@@ -1,0 +1,21 @@
+{
+  "name": "Honey",
+  "short_name": "Honey",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#FDEFD3",
+  "theme_color": "#F5BA41",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
+}
