@@ -15,17 +15,20 @@
 
 .brand-title {
     font-size: 36px;
-    color: var(--black);    
+    color: var(--black);
 }
 
 .user-area {
     margin-left: auto;
-    margin-right: 5px;
+    padding: 10px;
+    height: 100%;
     outline: none;
     border: none;
     background-color: transparent;
 }
 
 .user-icon {
-    margin-right: 10px;
+    border-radius: 50%;
+    height: 100%;
+    border: solid 1px var(--primary-color-500);
 }
